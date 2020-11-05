@@ -1,0 +1,71 @@
+#glavni {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border: 2px solid gray;
+}
+#div_select{
+	width: 100%;
+	text-align: center;
+}
+#ime_grada{
+	width: 100%;
+	text-align: center;
+	font-size: 300%;
+}
+#temperature_div{
+	width: 100%;
+}
+#slicica_div{
+width: 100%;
+text-align: center;
+}
+#slicica{
+text-align: center;	
+}
+#slicica > img{
+	margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+}
+#opis_div{
+width: 100%;
+text-align: center;
+}
+#trenutna_temperatura_div{
+height: 100px;
+width: 50%;
+display: inline-block;
+text-align: center;
+}
+#maximalna_temperatura_div{
+height: 100px;
+width: 50%;
+display: inline-block;
+text-align: center;
+}
+#trenutni_osecaj_div{
+height: 100px;
+width: 33.3%;
+display: inline-block;
+text-align: center;
+}
+#pritisak_vazduha_div{
+height: 100px;
+width: 33.2%;
+display: inline-block;
+text-align: center;
+}
+#vlaznost_vazduha_div{
+height: 100px;
+width: 33.3%;
+display: inline-block;
+text-align: center;
+}
+
+#opis { 
+	text-transform: capitalize;  /*prvo veliko slovo za opis*/
+	font-size: 150%;
+	border-bottom:1px solid black;
+}
